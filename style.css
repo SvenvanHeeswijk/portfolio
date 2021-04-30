@@ -1,0 +1,95 @@
+body{
+    background-image: url(Foto/achtergrond1.png);
+    font-family:  ethnocentric;
+    color: #24ff00;
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+  }
+
+a{
+  text-decoration: none;
+}
+
+button{
+    font-family:  ethnocentric;
+    border: none;
+}
+
+.container{
+    width: 70%;
+    margin: auto;
+    height: 100vh;
+}
+
+.center{
+  text-align: center;
+}
+
+
+.buttons{
+    margin: 0;
+    top: 100vh;
+}
+
+.block{
+    display: block;
+    position: relative;
+    width: 100%;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    font-size: 2em;
+    letter-spacing: 4px;
+    padding: 150px 28px;
+    color: white;
+    overflow: hidden;
+    cursor: pointer;
+    text-align: right;
+}
+
+.block-content{
+  position: absolute;
+  bottom: 0;
+}
+
+.intermedia{
+  background-image:  url(/Foto/Tesla_inter_media2.jpg);
+  background-size: cover;
+}
+
+.dev{
+  background-image:  url(/Foto/Code_Dev1.png);
+  background-size: cover;
+}
+
+.design{
+  background-image:  url(/Foto/Design.png);
+  background-size: cover;
+}
+
+.research{
+  background-image:  url(/Foto/Research.png);
+  background-size: cover;
+}
+
+.com{
+  background-image:  url(/Foto/communication.png);
+  background-size: cover;
+}
+
+.profid{
+  background-image:  url(/Foto/space.jpg);
+  background-size: cover;
+}
+
+
+@keyframes animate {
+    0% {
+      background-position: -500%;
+    }
+    100% {
+      background-position: 500%;
+    }
+  }
