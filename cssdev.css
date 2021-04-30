@@ -8,6 +8,7 @@ h2{
 
 img{
     border-radius: 15pt;
+    width: fit-content;
 }
 
 .text{
@@ -16,6 +17,32 @@ img{
     color: white;
     text-align: justify;
     text-justify: auto;
+}
+
+.menudev{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.menudev button{
+    font-family: 'Montserrat', sans-serif;
+    background-color: chocolate;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    width: 30%;
+    height: 25vh;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+}
+
+.RPS{
+    background-image: url(/foto/GIF.gif);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .row{
